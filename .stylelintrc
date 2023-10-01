@@ -18,5 +18,8 @@
       ]
     },
     "csstree/validator": true,
-    "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
-  }
+    "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"],
+"selector-no-attribute": [true, {
+      "ignore": ["class", "id", "/&gt;/"]
+    }] }
+    
