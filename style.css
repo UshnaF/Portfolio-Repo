@@ -119,6 +119,161 @@ align-items: center;
     margin-top: 15%;
 }
 
+.container{
+    border: 1px solid #DFE1E6;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    width: 360px;
+    height:600px;
+    padding: 16px;
+    border-radius: 16px;
+    gap: 12px;    
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #DFE1E6, #DFE1E6);
+    margin-bottom: 25%;
+}
+
+.container h1{
+font-family:Poppins;
+font-size: 32px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+color: #172B4D;
+width: 295px;
+height: 16px;
+margin-left: 3%;
+
+
+}
+
+.Description-card h2{
+    width: 55px;
+    height: 16px;
+font-family: Poppins;
+font-size: 13px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color:#344563;
+;
+
+}
+.Description-card h3{
+
+font-family: Poppins;
+font-size: 13px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color:#7A869A;
+}
+
+.Bullet{
+   
+width: 8px;
+height: 8px;
+
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 8px, 0px, 8px, 0px;
+    margin-top: 0.5%;
+
+}
+.container p{
+
+font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+width: 295px;
+height: 36px;
+color:#344563;
+
+}
+.card{
+
+    width: 295px ;
+    height: 220px ;
+    border-radius: 8px;
+    margin-left: 13px; 
+       
+}
+.Description-card{
+margin-left: 13px; 
+width: 295px;
+height: 288px;
+gap: 12px;    
+display: flex;
+flex-direction: column;
+border-radius: 5px;
+
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 260px;
+height: 32px;
+gap: 5px;
+
+}
+
+.text{
+   
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-align: left;
+    background: #EBEBFF;
+    border-radius: 8px; 
+    padding: 5px, 12px, 5px, 12px ; 
+   
+    }
+
+.languages{ 
+    font-family: Poppins;
+    line-height: 18px;
+    display: inline; 
+    width: 214px;
+    height: 34px;
+    margin-bottom: 5%;
+    color:#6070FF;
+    display: flex;
+   gap: 15px;
+   }
+ .languages a{
+    padding: 5px;  
+   }
+.action{
+
+width: 295px;
+height: 72px;
+padding: 12px, 169px, 12px, 0px;  
+}
+
+   .button{
+
+   color:#396DF2;
+   width: 126px;
+   height: 48px;
+   border: 1px solid #6070FF;
+   font-family: Poppins;
+   font-size: 17px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: 0.03em;
+   text-align: center;
+   border-radius: 8px;
+   gap: 10px;
+   top: 12px;
+   padding: 12px;
+    
+}
 
 
 
