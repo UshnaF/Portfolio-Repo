@@ -20,6 +20,11 @@
     "csstree/validator": true,
     "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"],
 "selector-no-attribute": [true, {
-      "ignore": ["class", "id", "/&gt;/"]
-    }] }
+      "ignore": ["class", "id", "/&gt;/"],
+   "declaration-empty-line-before": "always",
+   "selector-class-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+   "function-url-quotes": "always",
+   "font-family-no-missing-generic-family-keyword": true
+
+   }] }
     
