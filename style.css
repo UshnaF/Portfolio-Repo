@@ -743,7 +743,7 @@ left: 590px;
 }
 
 .text {
-    width: 55px;
+    width: max-content;
     height: 16px;
     font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
     font-size: 15px;
@@ -757,19 +757,6 @@ border-radius: 8px;
 
 }
 
-.text1{
-    width: 85px;
-    height: 16px;
-    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.04em;
-    background: #ebebff;
-    text-align: center;
-padding: 4px, 12px;
-border-radius: 8px;
-}
 
 .languages { 
 display: flex;
@@ -806,6 +793,25 @@ font-style: normal;
 font-weight: 520;
 line-height: 24px; /* 141.176% */
 letter-spacing: 0.51px;
-}
 
 }
+
+.button:hover{
+    animation: btn-anim 2s linear infinite;
+    color: white;
+    
+}
+}
+
+@keyframes btn-anim {
+    0% {
+        color:rosybrown;
+        background-position: 50% 0;
+    }
+
+    100% {
+        background:#0047AB;
+        background-position: -80% 0;
+        right: 50%;
+    }
+  }
