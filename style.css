@@ -3,7 +3,7 @@
     display: none;
 }
 
-@media (width <=767px) {
+@media (width <= 767px) {
     .mobile-view {
         display: block;
     }
@@ -436,7 +436,7 @@
         height: 48px;
         border-radius: 6px;
         color: linear-gradient(0deg, #cfd8dc, #cfd8dc),
-            linear-gradient(0deg, #fff, #fff);
+        linear-gradient(0deg, #fff, #fff);
         border: 1px solid #cfd8dc;
     }
 
@@ -445,7 +445,7 @@
         height: 170px;
         border-radius: 8px;
         color: linear-gradient(0deg, #cfd8dc, #cfd8dc),
-            linear-gradient(0deg, #fff, #fff);
+        linear-gradient(0deg, #fff, #fff);
         border: 1px solid #cfd8dc;
     }
 
