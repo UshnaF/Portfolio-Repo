@@ -1,10 +1,11 @@
-.desktop-view,.mobile-view{
+.desktop-view,
+.mobile-view {
     display: none;
 }
 
 
-@media (width <= 767px) {
-    .mobile-view{
+@media (width <=767px) {
+    .mobile-view {
         display: block;
     }
 
@@ -23,11 +24,11 @@
         margin-bottom: 25%;
 
     }
-    
+
     .nav-bar {
         width: 330px;
         height: 44px;
-        display:flex;
+        display: flex;
         justify-content: space-between;
     }
 
@@ -36,7 +37,7 @@
         color: #6070FF;
         width: 76px;
         height: 20px;
-        font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 19px;
         font-weight: 800;
         line-height: 20px;
@@ -54,7 +55,7 @@
 
     .intro h2 {
         margin-top: 20%;
-        font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 40px;
         font-weight: 700;
         line-height: 52px;
@@ -67,7 +68,7 @@
 
     .intro p {
         color: #172B4D;
-        font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif ;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 16px;
         font-weight: 450;
         line-height: 26px;
@@ -80,13 +81,13 @@
         width: 375px;
         height: 300px;
         top: 92px;
-        padding:114px, 24px;
+        padding: 114px, 24px;
         margin-left: 23px;
         align-items: center;
     }
 
     .connect p {
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 18px;
         font-weight: 500;
         line-height: 24px;
@@ -129,7 +130,7 @@
     }
 
     .container h1 {
-        font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 32px;
         font-weight: 700;
         text-align: left;
@@ -144,18 +145,18 @@
     .description-card h2 {
         width: 55px;
         height: 16px;
-        font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif ;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 13px;
         font-weight: 600;
         line-height: 16px;
         text-align: left;
         color: #344563;
-    ;
+        ;
 
     }
 
     .description-card h3 {
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 13px;
         font-weight: 600;
         line-height: 16px;
@@ -174,7 +175,7 @@
     }
 
     .container p {
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 15px;
         font-weight: 400;
         line-height: 14px;
@@ -192,7 +193,7 @@
         margin-left: 13px;
     }
 
-    .description-card{
+    .description-card {
         margin-left: 13px;
         width: 295px;
         height: 288px;
@@ -223,7 +224,7 @@
     }
 
     .languages {
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         line-height: 18px;
         width: 214px;
         height: 30px;
@@ -248,7 +249,7 @@
         width: 126px;
         height: 48px;
         border: 1px solid #6070FF;
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 17px;
         font-weight: 500;
         line-height: 24px;
@@ -284,7 +285,7 @@
     }
 
     .myself pre {
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 40px;
         font-weight: 700;
         line-height: 52px;
@@ -296,7 +297,7 @@
 
     .myself p {
         margin-top: 8px;
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -311,7 +312,7 @@
     }
 
     .let-connect pre {
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 18px;
         font-weight: 500;
         line-height: 24px;
@@ -344,7 +345,7 @@
         width: 327px;
         height: 72px;
         align-items: center;
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 20px;
         font-weight: 600;
         line-height: 24px;
@@ -360,7 +361,7 @@
         top: 24px;
         left: 12px;
         align-items: center;
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 15px;
         font-weight: 600;
         line-height: 20px;
@@ -410,7 +411,7 @@
     }
 
     .contact h1 {
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 40px;
         font-weight: 700;
         line-height: 52px;
@@ -423,7 +424,7 @@
     .contact p {
         width: 318px;
         height: 137px;
-        font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 28px;
@@ -469,7 +470,7 @@
     }
 
     ::placeholder {
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 15px;
         font-weight: 400;
         line-height: 24px;
@@ -486,7 +487,7 @@
         padding: 12px, 16px;
         border-radius: 8px;
         background: #FFF;
-        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -496,9 +497,4 @@
         border: none;
         cursor: pointer;
     }
-} 
-
-
-
-
-
+}
