@@ -477,3 +477,157 @@
         cursor: pointer;
     }
 }
+
+@media ( width >= 768px)
+{
+    .desktop-view{
+        display: grid;
+    }   
+
+.desktop-navbar
+{
+display: inline-flex;
+padding: 16px 143px;
+align-items: center;
+justify-content: center;
+gap: 796px;
+width: 1440px;
+height: 72px;
+border:solid #000;
+}
+
+.desklogo{
+    width: 100px;
+height: 40px;
+    display: flex;
+    padding: 10px 12px;
+    align-items: center;
+color:  #6070FF;
+text-align: center;
+font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; 
+cursor: pointer;
+}
+
+li { 
+display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color:  #344563;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+text-decoration: none;
+}
+
+a{
+display: flex;
+padding: 10px 12px;
+align-items: center;
+gap: 10px;
+cursor:pointer;
+
+}
+
+ h1:hover{
+    color: palevioletred;
+}
+
+a:hover
+{
+color: palevioletred;
+}
+
+.my-infocontainer{
+    display: inline-flex;
+    flex-direction: column;
+    width: 1210px;
+    height: 846px;
+    padding: 289px 260px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+ 
+}
+
+.intro{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 920px;
+height: 286px;
+margin-bottom: 0%;
+}
+
+.intro h2{
+display: flex;
+width: 920px;
+height: 122px;
+flex-direction: column;
+justify-content: center;
+color:  #091E42;
+font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+letter-spacing: 0.03rem;
+margin-top: 0%;
+margin-bottom: 0%;
+
+}
+
+.intro p{
+color: var(--theme-1-neutrals-3, #344563);
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-size: 20px;
+letter-spacing: 0.03rem;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+width: 920px;
+height: 98px;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.connect{
+line-height: 24px; /* 150% */
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.connect h3{
+    color: var(--primary-b-300, #7F8CFF);
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+
+}
+
+
+.icon{
+display: flex;
+width: 170.167px;
+height: 20px;
+gap: 18px;
+margin-right: 62%;
+cursor: pointer;
+transition: transform 0.3s;
+}
+
+.icon img:hover
+{
+    transform: scale(1.2); 
+}
+
+}
