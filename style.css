@@ -7,6 +7,7 @@
         display: block;
     }
 
+
     .my-infocontainer {
         background-image: url("background.jpg");
         background-repeat: no-repeat;
@@ -626,8 +627,185 @@ transition: transform 0.3s;
 
 .icon img:hover
 {
-    transform: scale(1.4); 
+    transform: scale(1.2); 
+}
+
+.work-desk{
+    display: inline-flex;
+    padding: 142px;
+    flex-direction: column;
+    align-items: center;
+    gap: 142px;
+    width: 1440px;
+    height: 2694px;   
+  
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1156px;
+    height: 496px;
+    border-radius: 24px;
+    align-items: center;
+    border: 1px solid var(--neutrals-n-40, #DFE1E6);
+background: var(--neutrals-n-0, #FFF);
+    
+}
+
+.description-card h1 {
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    color: #172b4d;
+    width: 496px;
+    height: 46px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.row h2 {
+    width: 75px;
+    height: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #344563;
+}
+
+.row h3 {
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #7a869a;
+    width: 120px;
+height: 24px;
+
+}
+
+.bullet {
+    width: 8px;
+    height: 8px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 8px, 0;
+    margin-top: 0.5%;
+}
+
+.container p {
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    color: #344563;
+    width: 496px;
+    height: 50px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0;
+text-align: left;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.card {
+    width: 544px;
+    height: 448px;
+    border-radius: 8px;
+    margin-left: 13px;
+}
+
+.description-card {
+    width: 544px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+padding: 24px;
+gap: 24px;
+top: 24px;
+left: 590px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 496px;
+    height: 98px;
+    gap: 12px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+.text {
+    width: 55px;
+    height: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    background: #ebebff;
+    text-align: center;
+padding: 4px, 12px;
+border-radius: 8px;
+
+}
+
+.text1{
+    width: 85px;
+    height: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    background: #ebebff;
+    text-align: center;
+padding: 4px, 12px;
+border-radius: 8px;
+}
+
+.languages { 
+display: flex;
+width: 544px;
+height:445px;
+gap: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    line-height: 18px;
+    color: #6070ff;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.action {
+    display: flex;
+width: 496px;
+height: 153px;
+padding: 16px 37px 89px 0;
+align-items: center;
+    
+}
+
+.button {
+border-radius: 8px;
+border: 1px solid var(--primary-b-400, #6070FF);
+text-decoration: none; 
+color: var(--primary-b-500, #396DF2);
+text-align: center;
+font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 520;
+line-height: 24px; /* 141.176% */
+letter-spacing: 0.51px;
 }
 
 }
->>>>>>>>> Temporary merge branch 2
