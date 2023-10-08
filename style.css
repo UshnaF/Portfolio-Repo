@@ -481,11 +481,7 @@
 /*  /////DESKTOP/////// */
 @media ( width >= 768px)
 {
-    body{
-       background-color:lightslategray;
-    }
-
-    .desktop-view{
+.desktop-view{
         display: block;
     }  
 
@@ -498,7 +494,6 @@ justify-content: center;
 gap: 796px;
 width: 1440px;
 height: 72px;
-border:solid #000;
 }
 
 .desklogo{
@@ -550,15 +545,22 @@ li a:hover
 color: palevioletred;
 }
 
+.header-headline{
+width: 1730px;
+background-color: #FFF;
+}
+
 .my-infocontainer{
+    background-image: url("Header.png");
+    background-repeat: no-repeat;
+    background-size: 1730px 846px;
     display: inline-flex;
     flex-direction: column;
     width: 1210px;
-    height: 846px;
+    height: 746px;
     padding: 289px 260px;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     
 }
 
@@ -641,8 +643,7 @@ transition: transform 0.3s;
     align-items: center;
     gap: 142px;
     width: 1440px;
-    height: 2694px;   
-  
+    height: 2350px;   
 }
 
 .container{
@@ -654,6 +655,7 @@ transition: transform 0.3s;
     align-items: center;
     border: 1px solid var(--neutrals-n-40, #DFE1E6);
 background: var(--neutrals-n-0, #FFF);
+
     
 }
 
@@ -722,6 +724,7 @@ margin-bottom: 0%;
     height: 448px;
     border-radius: 8px;
     margin-left: 13px;
+
 }
 
 .description-card {
@@ -733,6 +736,7 @@ padding: 24px;
 gap: 24px;
 top: 24px;
 left: 590px;
+
 }
 
 .row {
@@ -797,12 +801,14 @@ font-style: normal;
 font-weight: 520;
 line-height: 24px; /* 141.176% */
 letter-spacing: 0.51px;
+transition: transform 0.3s;
 
 }
 
 .button:hover{
     animation: btn-anim 2s linear infinite;
     color: white;
+    transform: scale(1.2);  
     
 }
             
@@ -812,14 +818,13 @@ letter-spacing: 0.51px;
     display: grid;
     grid-template-columns: auto auto;
     width: 1440px;
-height: 924px;
+height: 824px;
 align-items: center;
 background: url("aboutDesk.png") ;
 background-repeat: no-repeat;
-background-size: 1440px 924px;
+background-size: 1440px 824px;
 padding:16px 143px ;
-gap: 10px;
-    
+
 }
 
 
@@ -829,6 +834,7 @@ gap: 10px;
     width:447px;
 height: 311px;
 gap: 26px;
+margin-left: 160px;
 }
 
 .myself pre {
@@ -899,7 +905,7 @@ margin-bottom: 0%;
     flex-direction: column;
     width:684px;
     height:400px;
-    margin-right:200px;
+    margin-right:20px;
 }
 
 .skills {
@@ -977,14 +983,116 @@ border-radius: 8px;
     border-radius: 8px;
 }
 
+.contact-section {
+    display: grid;
+    justify-content: center;
+    width: 1440px;
+height: 846px;
+    background-color: #6070ff;
+    border-top-left-radius: 80px;
+    background-image: url("VectorImage.png");
+    background-size: 1440px 846px;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 200px;
+}
 
+.contact h1 {
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2%;
+    
+}
 
+.contact p {
+    width: 569px;
+    height: 102px;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #EBEBFF;
+    margin-top: 0%;
+}
 
+.contact {
+    display: flex;
+    width: 801px;
+    flex-direction: column;
+height: 577px;
+    margin-top: 15%;
+    align-items:center;
+}
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 350px;
+   
+}
 
+.input-field {
+    width: 447px;
+    height: 48px;
+    border-radius: 2px;
+    color: linear-gradient(0deg, #cfd8dc, #cfd8dc),
+        linear-gradient(0deg, #fff, #fff);
+    border: 1px solid #cfd8dc;
+}
 
+.msg {
+    width: 447px;
+height: 170px;
+border-radius: 2px;
+    color: linear-gradient(0deg, #cfd8dc, #cfd8dc),
+        linear-gradient(0deg, #fff, #fff);
+    border: 1px solid #cfd8dc;
+}
 
+::placeholder {
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #b3bac5;
+}
 
+.touch {
+    width: 142px;
+    height: 48px;
+    top: 5317px;
+    left: 24px;
+    padding: 12px, 16px;
+    border-radius: 8px;
+    background: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #6070ff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.touch:hover 
+{
+    transform: scale(1.2); 
+    animation: btn-anim 2s linear infinite;
+    color: white;
+}
 
 }
 
@@ -996,6 +1104,7 @@ border-radius: 8px;
 
     100% {
         background:#0047AB;
-        background-position: -80% 0;
-        right: 50%;
+        color: whitesmoke;
+        border: 4px solid cyan;
+        
     } }
