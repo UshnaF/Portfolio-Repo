@@ -498,7 +498,6 @@ justify-content: center;
 gap: 796px;
 width: 1440px;
 height: 72px;
-border:solid #000;
 }
 
 .desklogo{
@@ -550,15 +549,22 @@ li a:hover
 color: palevioletred;
 }
 
+.header-headline{
+width: 1730px;
+background-color: #FFF;
+}
+
 .my-infocontainer{
+    background-image: url("Header.png");
+    background-repeat: no-repeat;
+    background-size: 1730px 846px;
     display: inline-flex;
     flex-direction: column;
     width: 1210px;
-    height: 846px;
+    height: 746px;
     padding: 289px 260px;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     
 }
 
@@ -976,6 +982,109 @@ border-radius: 8px;
     padding: 1px;
     border-radius: 8px;
 }
+
+.contact-section {
+    display: grid;
+    justify-content: center;
+    width: 1440px;
+height: 846px;
+    background-color: #6070ff;
+    border-top-left-radius: 80px;
+    background-image: url("VectorImage.png");
+    background-size: 1440px 846px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contact h1 {
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2%;
+    
+}
+
+.contact p {
+    width: 569px;
+    height: 102px;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #EBEBFF;
+    margin-top: 0%;
+}
+
+.contact {
+    display: flex;
+    width: 801px;
+    flex-direction: column;
+height: 577px;
+    margin-top: 15%;
+    align-items:center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 350px;
+    
+}
+
+.input-field {
+    width: 447px;
+    height: 48px;
+    border-radius: 2px;
+    color: linear-gradient(0deg, #cfd8dc, #cfd8dc),
+        linear-gradient(0deg, #fff, #fff);
+    border: 1px solid #cfd8dc;
+}
+
+.msg {
+    width: 447px;
+height: 170px;
+border-radius: 2px;
+    color: linear-gradient(0deg, #cfd8dc, #cfd8dc),
+        linear-gradient(0deg, #fff, #fff);
+    border: 1px solid #cfd8dc;
+}
+
+::placeholder {
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #b3bac5;
+}
+
+.touch {
+    width: 142px;
+    height: 48px;
+    top: 5317px;
+    left: 24px;
+    padding: 12px, 16px;
+    border-radius: 8px;
+    background: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #6070ff;
+    border: none;
+    cursor: pointer;
+}
+
 
 
 
