@@ -969,6 +969,11 @@ padding: 12px, 12px, 20px;
 border-radius: 8px;
 }
 
+.text:hover{
+    box-shadow: 0 0 5px lightblue,0 0 15px cadetblue , 0 0 55px cyan;
+
+}
+
 .lan-logo image {
     border: 1px;
     border: 1px solid #fff;
