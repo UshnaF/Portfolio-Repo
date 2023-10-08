@@ -477,9 +477,14 @@
         cursor: pointer;
     }
 }
-
+  
+/*  /////DESKTOP/////// */
 @media ( width >= 768px)
 {
+    body{
+       background-color:lightslategray;
+    }
+
     .desktop-view{
         display: block;
     }  
@@ -536,7 +541,7 @@ cursor:pointer;
 
 }
 
- h1:hover{
+h1:hover{
     color: palevioletred;
 }
 
@@ -555,7 +560,6 @@ color: palevioletred;
     align-items: center;
     border: 2px solid black;
     
- 
 }
 
 .intro{
@@ -801,6 +805,187 @@ letter-spacing: 0.51px;
     color: white;
     
 }
+            
+                                    /* ///////ABOUT /////// */
+
+.about-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1440px;
+height: 924px;
+align-items: center;
+background: url("aboutDesk.png") ;
+background-repeat: no-repeat;
+background-size: 1440px 924px;
+padding:16px 143px ;
+gap: 10px;
+    
+}
+
+
+.myself{
+    display: flex;
+    flex-direction: column;
+    width:447px;
+height: 311px;
+gap: 26px;
+}
+
+.myself pre {
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    width: 447px;
+height: 33px;
+color: #091E42;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.myself p {
+    width: 447px;
+    height: 102px;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #344563;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 0%;  
+}
+
+.let-connect pre{
+width: 117px;
+height: 24px;
+font-family:"Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0;
+text-align: left;
+color:#7F8CFF;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.new-icon{
+        display: flex;
+        width: 170.167px;
+        height: 20px;
+        gap: 18px;
+        margin-right: 62%;
+        cursor: pointer;
+        transition: transform 0.3s;
+        margin-top: 10px;
+}
+
+.new-icon img:hover
+{
+    transform: scale(1.2); 
+}
+
+.resume{
+    width: 150px;
+    height: 24px;
+    text-align: center;
+}
+
+
+.skill-sets{
+    display: flex;
+    flex-direction: column;
+    width:684px;
+    height:400px;
+    margin-right:200px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:414px;
+height: 144px;
+gap: 12px;
+padding-top: 10px;
+}
+
+.lang {
+    display: flex;
+    justify-content: space-between;
+    top: 24px;
+    left: 12px;
+    width: 684px;
+height: 72px;
+padding: 16px, 26px, 16px, 24px;
+align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#344563;
+    border-bottom: 1px solid lightgray ;
+    
+}
+
+.lang1{
+    display: flex;
+    justify-content: space-between;
+    top: 24px;
+    left: 12px;
+    width: 684px;
+height: 72px;
+padding: 16px, 26px, 16px, 24px;
+align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#344563;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    justify-content: center;
+    color: #253858;
+    background: #f7f7f9;
+    width: 122px;
+height: 120px;
+padding: 12px, 12px, 20px;
+border-radius: 8px;
+}
+
+.lan-logo image {
+    border: 1px;
+    border: 1px solid #fff;
+}
+
+
+.drop {
+    cursor: pointer;
+    margin-right: 10%;
+    margin-top: 2%;
+    padding: 1px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
 }
 
 @keyframes btn-anim {
@@ -813,5 +998,4 @@ letter-spacing: 0.51px;
         background:#0047AB;
         background-position: -80% 0;
         right: 50%;
-    }
-  }
+    } }
