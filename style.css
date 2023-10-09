@@ -1,13 +1,14 @@
-.desktop-view,.mobile-view {
-    display: none;
-}
 
-@media (width <=767px) {
-    .mobile-view {
+@media screen and (width<=767px) {
+    .mobile-view{
         display: block;
     }
 
-
+    .desktop-view {
+        display: none;
+    }
+    
+    
     .my-infocontainer {
         background-image: url("background.jpg");
         background-repeat: no-repeat;
@@ -479,11 +480,16 @@
 }
   
 /*  /////DESKTOP/////// */
-@media ( width >= 768px)
-{
-.desktop-view{
+
+
+@media screen and (width>= 768px) {
+    .desktop-view {
         display: block;
-    }  
+    }
+
+    .mobile-view{
+        display: none;
+    }
 
 .desktop-navbar
 {
