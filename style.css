@@ -992,7 +992,7 @@ border-radius: 8px;
     display: grid;
     justify-content: center;
     width: 1440px;
-height: 846px;
+    height: 846px;
     background-color: #6070ff;
     border-top-left-radius: 80px;
     background-image: url("VectorImage.png");
@@ -1000,7 +1000,7 @@ height: 846px;
     background-repeat: no-repeat;
     background-position: left;
     margin-left: 200px;
-}
+  }
 
 .contact h1 {
     font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
@@ -1043,7 +1043,6 @@ height: 577px;
     gap: 20px;
     align-items: center;
     height: 350px;
-   
 }
 
 .input-field {
