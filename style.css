@@ -86,10 +86,21 @@
     margin-top: 1rem;
     padding: 0, 1rem;
     cursor: pointer;
+    transition: transform 0.3s;
   }
 
-  .icon-img {
+  .lan-logo img {
+    top: 0.5625rem;
+    left: 0.75rem;
+    border: 0.0625rem solid #fff;
+  }
+
+  .icon img {
     padding-right: 0.6rem;
+  }
+
+  .icon img:hover {
+    transform: scale(1.2);
   }
 
   .connect {
@@ -177,6 +188,10 @@
     padding: 0.75rem;
   }
 
+  .text:hover {
+    box-shadow: 0 0 0.3125rem lightblue, 0 0 0.9375rem cadetblue, 0 0 3.4375rem cyan;
+  }
+
   .languages {
     font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
     line-height: 1.125rem;
@@ -211,6 +226,13 @@
     border-radius: 0.5rem;
     padding: 0.75rem;
     text-decoration: none;
+    transition: transform 0.3s;
+  }
+
+  .button:hover {
+    animation: btn-anim 2s linear infinite;
+    color: white;
+    transform: scale(1.2);
   }
 
   .about-container {
@@ -268,6 +290,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 1.5rem;
+    transition: transform 0.3s;
   }
 
   .skills {
@@ -287,6 +310,10 @@
     align-items: center;
     align-content: center;
     border-bottom: 0.0625rem solid lightgray;
+  }
+
+  .new-icon img:hover {
+    transform: scale(1.2);
   }
 
   .lang h1 {
@@ -316,12 +343,6 @@
     line-height: 1.25rem;
     text-align: left;
     color: #253858;
-  }
-
-  .lan-logo img {
-    top: 0.5625rem;
-    left: 0.75rem;
-    border: 0.0625rem solid #fff;
   }
 
   .drop {
