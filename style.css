@@ -950,6 +950,10 @@
     margin-top: 0%;
 }
 
+  .contact p:hover {
+    color: #000;
+  }
+
   .contact {
     display: flex;
     width: 50.0625rem;
