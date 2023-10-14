@@ -84,7 +84,7 @@
     width: 100%;
     display: inline;
     margin-top: 1rem;
-    padding: 0,1rem; 
+    padding: 0, 1rem; 
     cursor: pointer;
   }
 
@@ -218,7 +218,7 @@
     height: 100%;
     background: linear-gradient(0deg, #fff, #fff), linear-gradient(0deg, #dfe1e6, #dfe1e6);
     top: auto;
-    padding: 3rem; 
+    padding: 3rem;
     border-top-right-radius: 5rem;
     margin-bottom: 5rem;
   }
@@ -282,7 +282,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     top: 1.5rem;
-    left: 1.125rem; 
+    left: 1.125rem;
     width: auto;
     align-items: center;
     align-content: center;
@@ -533,7 +533,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.875rem;
-    letter-spacing: 0.0019rem; 
+    letter-spacing: 0.0019rem;
     margin-top: 0%;
     margin-bottom: 0%;
     animation: jump-text 3s ease-in;
@@ -546,7 +546,7 @@
     letter-spacing: 0.0019rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.75rem; 
+    line-height: 1.75rem;
     width: 57.5rem; /* 920px */
     height: 6.125rem; /* 98px */
     margin-top: 0%;
@@ -560,7 +560,7 @@
   }
 
   .connect h3 {
-    color: var(--primary-b-300, #7F8CFF);
+    color: var(--primary-b-300, #7f8cff);
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 1.125rem;
     font-style: normal;
@@ -607,7 +607,7 @@
     color: #172b4d;
     width: 31rem; /* 496px */
     height: 2.875rem; /* 46px */
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 3.25rem;
     letter-spacing: 0;
@@ -629,7 +629,7 @@
 
   .row h3 {
     font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-    font-size: 1.125rem; 
+    font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.5rem;
     text-align: left;
@@ -776,7 +776,7 @@
     color: #091e42;
     margin-top: 0%;
     margin-bottom: 0%;
-}
+  }
 
   .myself p {
     width: 27.9375rem;
