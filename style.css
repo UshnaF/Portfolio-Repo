@@ -921,8 +921,8 @@
     background-size: 90rem 53.25rem;
     background-repeat: no-repeat;
     background-position: left;
-    margin-left: 12.5rem;
-  }
+    margin-left: 200px;
+}
 
   .contact h1 {
     font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
@@ -947,7 +947,7 @@
     text-align: center;
     color: #ebebff;
     margin-top: 0%;
-  }
+}
 
   .contact {
     display: flex;
@@ -963,8 +963,9 @@
     flex-direction: column;
     gap: 1.25rem;
     align-items: center;
-    height: 21.875rem;
-  }
+    height: 350px;
+   
+}
 
   .input-field {
     width: 27.9375rem;
