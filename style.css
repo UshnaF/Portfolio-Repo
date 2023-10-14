@@ -914,14 +914,15 @@
     display: grid;
     justify-content: center;
     width: 90rem;
-    height: 53.25rem;
+    height: 50.25rem;
     background-color: #6070ff;
     border-top-left-radius: 5rem;
     background-image: url("VectorImage.png");
-    background-size: 90rem 53.25rem;
+    background-size: 90rem 50.25rem;
     background-repeat: no-repeat;
     background-position: left;
     margin-left: 200px;
+    padding-top: 10rem;
 }
 
   .contact h1 {
@@ -932,7 +933,7 @@
     line-height: 3.25rem;
     text-align: center;
     color: #fff;
-    margin-bottom: 0.125rem;
+    margin-bottom: 2rem;
     animation: jump-text 2s ease-in-out;
   }
 
@@ -1010,6 +1011,7 @@
     border: none;
     cursor: pointer;
     transition: transform 0.3s;
+    margin-bottom: 0;
   }
 
   .touch:hover {
